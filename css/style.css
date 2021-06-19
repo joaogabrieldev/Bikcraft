@@ -1,371 +1,441 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 img {
-	display: block;
+  display: block;
+  max-width: 100%;
 }
 
 .btn {
-	border: 3px solid #fec63e;
-	padding: 10px 30px;
-	color: #fec63e;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 20px;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	transition: 300ms;
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: 300ms;
 }
 
 .btn:hover {
-	color: white;
-	border-color: white;
-	transition: 300ms;
+  color: white;
+  border-color: white;
+  transition: 300ms;
 }
 .btn.btn-preto:hover {
-	color: black;
-	border-color: black;
-	transition: 300ms;
+  color: black;
+  border-color: black;
+  transition: 300ms;
 }
 
 .header {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #fec63e;
-	padding: 15px 0;
-	z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fec63e;
+  padding: 15px 0;
+  z-index: 10;
 }
 
 .header_menu {
-	text-align: right;
+  text-align: right;
 }
 
 .header_menu ul li {
-	display: inline-block;
-	margin-left: 25px;
-	margin-top: 20px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 
 .header_menu ul li a {
-	color: black;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 16px;
-	padding: 10px 0;
-	transition: 300ms;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: 300ms;
 }
 
 .header_menu ul li a:hover {
-	color: white;
-	transition: 300ms;
+  color: white;
+  transition: 300ms;
 }
 
 .header_menu ul li a.menu_ativo {
-	color: white;
+  color: white;
 }
 
 .introducao {
-	width: 100%;
-	height: 380px;
-	background: url("../img/bg.jpg") no-repeat center;
-	background-size: cover;
-	margin-top: 92px;
-	text-align: center;
-	padding-top: 80px;
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .introducao h1 {
-	font-size: 48px;
-	color: white;
-	font-weight: bold;
-	text-transform: uppercase;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .quote-externo {
-	max-width: 300px;
-	margin: 0 auto;
-	margin-bottom: 40px;
-	color: white;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: white;
 }
 
 .quote-externo p::before,
 .quote-externo p::after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: white;
-	margin: 10px auto;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: white;
+  margin: 10px auto;
 }
 .quote-externo p {
-	font-style: italic;
-	font-size: 18px;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .quote-externo cite {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	letter-spacing: 0.1em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .introducao-interna {
-	width: 100%;
-	height: 160px;
-	margin-top: 92px;
-	text-align: center;
-	color: white;
-	padding-top: 40px;
+  width: 100%;
+  height: 160px;
+  margin-top: 92px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
 }
 
 .introducao-interna h1 {
-	font-size: 36px;
-	font-weight: bold;
-	text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .introducao-interna h1:after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 2px;
-	background: white;
-	margin: 10px auto;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: white;
+  margin: 10px auto;
 }
 
 .subtitulo::after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: black;
-	margin: 8px auto;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: black;
+  margin: 8px auto;
 }
 
 .subtitulo {
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 30px;
-	letter-spacing: 0.1em;
-	color: black;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .subtitulo_interno::after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: black;
-	margin-top: 10px;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: black;
+  margin-top: 10px;
 }
 
 .subtitulo_interno {
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 30px;
-	letter-spacing: 0.1em;
-	color: black;
-	text-transform: uppercase;
-	margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .produtos {
-	padding: 60px 0;
+  padding: 60px 0;
 }
 
 .produtos_lista li {
-	background-color: #fec63e;
-	text-align: center;
+  background-color: #fec63e;
+  text-align: center;
+}
+
+.produtos_lista li img {
+  margin: 0 auto;
 }
 
 .produtos_lista li h3 {
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
 }
 
 .produtos_lista li h3:after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: black;
-	margin: 2px auto;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: black;
+  margin: 2px auto;
 }
 
 .produtos_lista li p {
-	padding: 10px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 .produtos_icone {
-	background-color: black;
-	padding: 20px;
+  background-color: black;
+  padding: 20px;
 }
 
 .call {
-	text-align: center;
-	padding-top: 40px;
-	clear: both;
+  text-align: center;
+  padding-top: 40px;
+  clear: both;
 }
 
 .call p {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio {
-	width: 100%;
-	background-color: black;
-	padding: 40px 0;
+  width: 100%;
+  background-color: black;
+  padding: 40px 0;
 }
 
 .portfolio .subtitulo {
-	color: #fec63e;
+  color: #fec63e;
 }
 
 .portfolio .subtitulo::after {
-	background: #fec63e;
+  background: #fec63e;
 }
 
 .portfolio_lista li:last-child {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .portfolio .call p {
-	color: white;
+  color: white;
 }
 
 .qualidade {
-	padding: 60px 0;
+  padding: 60px 0;
 }
 
 .qualidade:after {
-	content: "";
-	width: 634px;
-	height: 83px;
-	display: block;
-	background: url("../img/linhas.svg") no-repeat center;
-	position: absolute;
-	top: 180px;
-	right: 162px;
-	z-index: -1;
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 180px;
+  right: 162px;
+  z-index: -1;
 }
 
 .qualidade img {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .qualidade_lista {
-	padding-top: 20px;
-	overflow: hidden;
+  padding-top: 20px;
+  overflow: hidden;
 }
 
 .qualidade_lista li {
-	text-align: center;
-	padding: 0 25px;
+  text-align: center;
+  padding: 0 25px;
 }
 
 .qualidade_lista li h3 {
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
 }
 
 .qualidade_lista li h3:after {
-	content: "";
-	display: block;
-	width: 100px;
-	height: 3px;
-	background: black;
-	margin: 6px auto;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: black;
+  margin: 6px auto;
 }
 
 .quebra {
-	width: 100%;
-	height: 260px;
-	background: url(../img/bg-footer.jpg) no-repeat center;
-	background-size: cover;
-	text-align: center;
-	padding-top: 70px;
+  width: 100%;
+  height: 260px;
+  background: url(../img/bg-footer.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 70px;
 }
 
 .quebra .quote-externo {
-	max-width: 400px;
+  max-width: 400px;
 }
 
 .footer {
-	width: 100%;
-	background: black;
-	color: white;
-	padding: 20px;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 20px;
 }
 
 .footer h3 {
-	font-size: 18px;
-	line-height: 25px;
-	color: #fec63e;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
 }
 
 .footer h3::after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #fec63e;
-	margin: 5px 0px 15px 0px;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 5px 0px 15px 0px;
 }
 
 .footer-historia {
-	padding-right: 40px;
+  padding-right: 40px;
 }
 
 .footer-contato ul li {
-	font-size: 14px;
-	line-height: 20px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .footer_redes ul li {
-	display: inline-block;
-	margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .footer_redes ul li a {
-	border: 3px solid #fec63e;
-	display: block;
-	padding: 10px;
-	border-radius: 20px;
-	cursor: pointer;
-	transition: 300ms;
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 300ms;
 }
 
-.footer_redes ul li a:hover {
-	border-color: white;
-	transition: 300ms;
+.footer_redes ul li a:hover,
+.footer_redes ul li a img:hover {
+  border-color: white;
+  filter: brightness(100);
+  transition: 300ms;
 }
 
 .copy {
-	width: 100%;
-	background: #fec63e;
-	padding: 20px 0;
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
+}
+
+/* Javascript */
+/* 5 Adicione o CSS Essencial abaixo */
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 1000ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  overflow: hidden;
+  text-indent: -99px;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  background: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
 }
