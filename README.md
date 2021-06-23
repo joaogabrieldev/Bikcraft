@@ -6,7 +6,7 @@
 <!-- TITULO E DESCRIÇAO -->
 <div align="center">
 	<h3>Bikcraft - Bicicletas Personalizadas</h3>
-	<p align="center">Descrição do projeto, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+	<p align="center">Projeto desenvolvido nos estudos do curso de Web Design Completo da plataforma Origamid, feito com HTML,CSS e Javascript</p>
 </div>
 
 <!-- STATUS DO PROJETO -->
