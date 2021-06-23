@@ -32,7 +32,7 @@
    * [Tabela de Conteudo](#-tabela-de-conteudo)
    * [Sobre](#-Sobre)
    * [Demonstração](#-Demonstração)
-   * [Como usar]()
+   * [Como usar](#-Pré-requisitos)
       * [Pre Requisitos](#-Pré-requisitos)
       * [Rodando aplicação](#-Rodando-a-aplicação)
    * [Tecnologias](#-Tecnologias-utilizadas)
