@@ -32,10 +32,10 @@
    * [Tabela de Conteudo](#-tabela-de-conteudo)
    * [Sobre](#-Sobre)
    * [Demonstração](#-Demonstração)
-   * Como usar
-      * [Pre Requisitos](#-pré-requisitos)
-      * [Rodando aplicação](#-Rodando-a-aplipação)
-   * [Tecnologias](#-tecnologias)
+   * [Como usar]()
+      * [Pre Requisitos](#-Pré-requisitos)
+      * [Rodando aplicação](#-Rodando-a-aplicação)
+   * [Tecnologias](#-Tecnologias-utilizadas)
    * [Autor](#-Autor)
 <!--te-->
 
